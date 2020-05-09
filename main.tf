@@ -8,6 +8,5 @@ module "s3-webapp" {
   version = "0.0.1"
   name   = var.name
   region = var.region
-  prefix = var.prefix
-  version = "1.0.0"
+  prefix = var.prefix  
 }
